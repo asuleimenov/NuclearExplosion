@@ -20,7 +20,7 @@ import seaborn as sns
 # The application integrates visualizations such as maps, pie charts, and bar charts to make the data more engaging and insightful.
 # By combining filters and dynamic tools, the project offers an accessible way to investigate patterns and details behind nuclear detonations historically.
 
-data = "C:/Users/saska/PycharmProjects/FINAL PROJECT/nuclear_explosions.csv"
+data = "nuclear_explosions.csv"
 df = pd.read_csv(data)
 
 df.rename(columns = {"WEAPON SOURCE COUNTRY":"Source Country",           # Rename the columns for the better understanding and readability [DA1]
